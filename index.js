@@ -71,6 +71,7 @@ function background() {
    *
    * @param {*} node Um objeto HTML Node
    */
+  
   function removeAllChildren(elementoId) {
       const elemento = document.getElementById(elementoId);
       while (elemento.firstChild) {
